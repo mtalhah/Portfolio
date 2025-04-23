@@ -264,7 +264,7 @@ const App = () => {
                 <div className="relative">
                   <div className="w-full h-96 md:h-96 bg-gradient-to-br from-purple-500 to-fuchsia-600 rounded-lg shadow-xl overflow-hidden">
                     <img
-                      src="/portrait_animated.png"
+                      src="./portrait_animated.png"
                       alt="Profile"
                       className="w-full h-full object-cover "
                     />
@@ -298,38 +298,38 @@ const App = () => {
                 {
                   title: "ASK GPT",
                   desc: "A desktop app whose sole purpose is to visualize the results of users prompts using knowledge graphs and statistics like relevance and sentiment , giving the user deep insights into their query.",
-                  imgsrc:"/askgpt.jpg",
+                  imgsrc:"./askgpt.jpg",
                   tech: ["Flutter", "Google Maps API", "Bluetooth", "ESP32"]
                 },
                 {
                   title: "Smart Motorcycle HUD",
                   desc: "A heads-up display for motorcycle helmets that shows turn-by-turn directions using an ESP32 and mobile app integration.",
-                  imgsrc:"/HUD.jpg",
+                  imgsrc:"./HUD.jpg",
                   tech: ["Flutter", "ESP32", "Bluetooth", "Google Maps API"]
                 },
                 {
                   title: "Driver Behavior Analysis",
                   desc: "Analyzes OBD data from a car and uses ML models to classify driving style, check car health and provide improvement tips.",
-                  imgsrc:"/DRIVER4.png",
+                  imgsrc:"./DRIVER4.png",
                   tech: ["Python", "Machine Learning", "OBD-II", "Pandas"]
                 },
                 
                 {
                   title: "Air Quality Monitoring System",
                   desc: "Built an IoT-based air quality system using MQ sensors to monitor pollution levels and alert users in real-time.",
-                  imgsrc:"/AQMS.jpg",
+                  imgsrc:"./AQMS.jpg",
                   tech: ["Arduino", "MQ-135", "ESP8266", "OLED Display"]
                 },
                 {
                   title: "Portfolio Website",
                   desc: "My personal portfolio website to showcase projects, skills, and resume with a clean, responsive UI.",
-                  imgsrc:"/portfolio.png",
+                  imgsrc:"./portfolio.png",
                   tech: ["React", "Tailwind CSS", "JavaScript","three.js"]
                 },
                 {
                   title: "MDL - Music Downloader",
                   desc: "A desktop app made entirely out of python that acts as a music downloader.",
-                  imgsrc:"/MDL2.png",
+                  imgsrc:"./MDL2.png",
                   tech: ["Python", "PySimpleGUI", "pytube", "spotipy"]
                 }
                 
