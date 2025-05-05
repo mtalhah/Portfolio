@@ -542,7 +542,7 @@ const App = () => {
             <div className="space-y-12">
               {[
                 {
-                  position: "Software Developer",
+                  position: "Software Developer Intern",
                   company: "Coginnova Asia",
                   period: "September 2023 - November 2023",
                   description: "Interned at Coginnova Asia for a duration of 2 months as part of academic requirement.",
@@ -552,24 +552,25 @@ const App = () => {
                   ]
                 },
                 {
-                  position: "Systems Engineer",
-                  company: "TCS",
-                  period: "2025 - Present",
-                  description: "Offer accepted, yet to join. Preparing for role responsibilities in systems engineering, focusing on improving technical processes and contributing to software development.",
-                  achievements: [
-                  ]
-                }
-                ,
-                {
-                  position: "Freelance Web developer",
-                  company: "Self-Employed",
+                  position: "Software Developer Intern",
+                  company: "T3C Technologies",
                   period: "2025 - Present",
                   description: "Built responsive and interactives 3D websites using React and Three.js",
                   achievements: [
                     "Developed a personal portfolio for client using React",
                     "Developed a personal portfolio for myself"
                   ]
+                },
+                {
+                  position: "Systems Engineer",
+                  company: "TCS",
+                  period: "yet to start",
+                  description: "Offer accepted, yet to join. Preparing for role responsibilities in systems engineering, focusing on improving technical processes and contributing to software development.",
+                  achievements: [
+                  ]
                 }
+                ,
+                
               ].map((exp, index) => (
                 <motion.div
                   key={index}
