@@ -348,8 +348,8 @@ const App = () => {
                       alt={project.title} 
                       className="w-full h-full object-cover opacity-100 group-hover:scale-110 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-purple-900/70">
-                      <button className="px-4 py-2 bg-purple-600 rounded-full text-sm">View Project</button>
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-20 transition-opacity duration-300 bg-purple-900/70">
+
                     </div>
                   </div>
                   <div className="p-6">
